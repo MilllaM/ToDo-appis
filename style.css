@@ -1,0 +1,57 @@
+body{
+  background-color: #ff9999;
+  font-family: Verdana;
+  font-size: 18px;
+  color: #383838;
+  text-align: center;
+/* sisällön maksimileveys */
+  max-width: 600px;
+/* keskitetään sisältö */
+  margin: 0 auto;
+}
+
+h1 {
+ color: #800000
+}
+
+input {
+  color:#ff6666;
+  height: 40px;
+  width: 60%;
+  padding: 20px;
+}
+
+ul {
+  /* poistaa bullet-pointit*/
+  list-style: none;
+  /* poistetaan listan oletussisennys*/
+  padding-left:0;
+}
+
+li {
+  /* tausta */
+  background-color: #fff;
+
+/* tilaa ympärille*/
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+/* tilaa boxin sisään */
+  padding: 20px;
+}
+button {
+  width: 30%;
+  /* joka puolelle tilaa */
+  padding: 15px;
+  background-color: #800000;
+  color: #ffffff;
+  font-size: 16px;
+  /*pyöristetyt kulmat */
+  border-radius: 20px;
+  border-color: #fff;
+}
+
+.tehty {
+  text-decoration: line-through;
+  color: #94a1B2;
+}
